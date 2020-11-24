@@ -5,7 +5,7 @@ from datetime import datetime as dt
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Сгенерировали страницу, {name}')  # Press Ctrl+8 to toggle the breakpoint.
-# проверка на заливку
+# проверка на
 
 def generate_head(title):
     head = f'''<head>
