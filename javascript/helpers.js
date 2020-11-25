@@ -4,8 +4,8 @@ $("#main-header").click(function (){
 
     $.getJSON(url_adviec, function (data) {
         advice = (data["slip"].advice);
+        set_hello(advice)
     });
-    set_hello(advice)
 });
 function  set_hello(msg) {
     p = $("#second-paragraphs")
